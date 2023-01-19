@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T04:11:06.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="WVCELtT1_wmVTSlLtj3n" type="github"><diagram id="WKBoGP3dczfv3KHOJuKg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-19T05:32:54.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="HeG8lW9U2a8y8olMn4Tk" type="github">
+  <diagram id="t4j-KxLY3OTEtI7Jk4tz" name="Page-1">
+    <mxGraphModel dx="2084" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3aeLASxTtZbbSjNIwuVH-1" target="3aeLASxTtZbbSjNIwuVH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Order Placed&lt;br&gt;&lt;br&gt;Transc. id generated&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="55" y="20" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3aeLASxTtZbbSjNIwuVH-2" target="3aeLASxTtZbbSjNIwuVH-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-2" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;With RazorPay orders api&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Order id generated which is mapped to the transc. id&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;orders api&lt;br&gt;https://razorpay.com/docs/api/orders/&lt;br&gt;&lt;/span&gt;&lt;br&gt;order states&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="270" width="300" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3aeLASxTtZbbSjNIwuVH-5" target="3aeLASxTtZbbSjNIwuVH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Razorpay order id is passed to the apps UI&lt;br&gt;(Chargers app) to provide methods of various payment methods&amp;nbsp;&lt;br&gt;&lt;br&gt;The payment details are secured and stored by razorpay as tokens and shared to us for further use&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="414" y="60" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3aeLASxTtZbbSjNIwuVH-6" target="3aeLASxTtZbbSjNIwuVH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Razorpay then sends the authentication request to bank, which if authenticated will allow the razorpay to deduct the amount from customers bank account, after successful transaction&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;checkout returns razorpay_order_id,razorpay_payment_id,&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;and razorpay_signature&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;payment states&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;https://razorpay.com/docs/payments/payments/&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="470" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="3aeLASxTtZbbSjNIwuVH-8" target="3aeLASxTtZbbSjNIwuVH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;After completion of the payment razorpay authenticates it,&lt;br&gt;Payment should be captured by us&lt;br&gt;we can also verify the payment signature&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="1020" width="360" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="3aeLASxTtZbbSjNIwuVH-10" target="3aeLASxTtZbbSjNIwuVH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;After the payment is captured , the amount is settled according to the settlement schedule&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;https://razorpay.com/docs/payments/payments/capture-settings/&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="398.5" y="1330" width="373" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3aeLASxTtZbbSjNIwuVH-12" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Refund if there is some problem&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439.25" y="1591" width="291.5" height="149" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
